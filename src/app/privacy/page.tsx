@@ -1,11 +1,27 @@
+import PrivacyHero from "@/components/privacy/PrivacyHero";
+import PrivacyOverview from "@/components/privacy/PrivacyOverview";
+import InformationCollection from "@/components/privacy/InformationCollection";
+import PermissionsSection from "@/components/privacy/PermissionsSection";
+import ThirdPartyServices from "@/components/privacy/ThirdPartyServices";
+import DataRetention from "@/components/privacy/DataRetention";
+import DataDeletionSection from "@/components/privacy/DataDeletionSection";
+import ChildrenPrivacy from "@/components/privacy/ChildrenPrivacy";
+import PolicyUpdates from "@/components/privacy/PolicyUpdates";
+import PrivacyContact from "@/components/privacy/PrivacyContact";
+
 export default function PrivacyPage() {
   return (
-    <main className="mx-auto max-w-7xl px-6 py-20">
-      <h1 className="text-4xl font-bold">Privacy Policy</h1>
-
-      <p className="mt-4 text-slate-600">
-        This page is under construction.
-      </p>
+    <main>
+      <PrivacyHero />
+      <PrivacyOverview />
+      <InformationCollection />
+      <PermissionsSection />
+      <ThirdPartyServices />
+      <DataRetention />
+      <DataDeletionSection />
+      <ChildrenPrivacy />
+      <PolicyUpdates />
+      <PrivacyContact />
     </main>
   );
 }

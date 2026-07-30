@@ -1,11 +1,17 @@
+import SupportHero from "@/components/support/SupportHero";
+import SupportCategories from "@/components/support/SupportCategories";
+import AppSupport from "@/components/support/AppSupport";
+import DataDeletion from "@/components/support/DataDeletion";
+import SupportCTA from "@/components/support/SupportCTA";
+
 export default function SupportPage() {
   return (
-    <main className="mx-auto max-w-7xl px-6 py-20">
-      <h1 className="text-4xl font-bold">Support</h1>
-
-      <p className="mt-4 text-slate-600">
-        This page is under construction.
-      </p>
+    <main>
+      <SupportHero />
+      <SupportCategories />
+      <AppSupport />
+      <DataDeletion />
+      <SupportCTA />
     </main>
   );
 }

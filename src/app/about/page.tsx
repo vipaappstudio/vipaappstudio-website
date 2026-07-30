@@ -1,10 +1,19 @@
+import AboutHero from "@/components/about/AboutHero";
+import WhoWeAre from "@/components/about/WhoWeAre";
+import MissionVision from "@/components/about/MissionVision";
+import Values from "@/components/about/Values";
+import CompanyStats from "@/components/about/CompanyStats";
+import AboutCTA from "@/components/about/AboutCTA";
+
 export default function AboutPage() {
   return (
-    <main className="mx-auto max-w-7xl px-6 py-20">
-      <h1 className="text-4xl font-bold">About Us</h1>
-      <p className="mt-4 text-slate-600">
-        This page is under construction.
-      </p>
+    <main>
+      <AboutHero />
+      <WhoWeAre />
+      <MissionVision />
+      <Values />
+      <CompanyStats />
+      <AboutCTA />
     </main>
   );
 }
