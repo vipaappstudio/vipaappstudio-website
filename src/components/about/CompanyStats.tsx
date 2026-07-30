@@ -12,7 +12,7 @@ import {
 const stats = [
   {
     icon: Smartphone,
-    value: 25,
+    value: 20,
     suffix: "+",
     title: "Android Apps",
     description:

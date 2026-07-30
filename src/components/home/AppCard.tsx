@@ -42,8 +42,8 @@ export default function AppCard({
          className="mx-auto h-[280px] w-auto transition duration-500 group-hover:scale-105"
         />
 
-        <div className="absolute left-4 top-4 rounded-full bg-white px-3 py-1 text-sm font-semibold shadow">
-          {category}
+       <div className="absolute left-4 top-4 rounded-full bg-white px-3 py-1 text-sm font-semibold text-blue-700 shadow">
+            {category}
         </div>
       </div>
 
@@ -58,7 +58,7 @@ export default function AppCard({
           {description}
         </p>
 
-        <div className="mt-3 flex items-center gap-4 text-sm">
+        <div className="mt-3 flex items-center gap-4 text-slate-600">
           <div className="flex items-center gap-1">
             <Star
               size={18}
@@ -67,7 +67,7 @@ export default function AppCard({
             <span>{rating}</span>
           </div>
 
-          <div className="flex items-center gap-1">
+          <div className="flex items-center gap-1 text-slate-600">
             <Download size={18} />
             <span>{downloads}</span>
           </div>

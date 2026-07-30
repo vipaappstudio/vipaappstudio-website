@@ -4,34 +4,37 @@ import AppCard from "./AppCard";
 
 const apps = [
   {
-    title: "Photo Editor Pro",
+    title: "Photo Editor Pro - AI Filters",
     category: "AI Editing",
     description:
-      "Professional AI-powered photo editing with filters, effects and creative tools.",
-    rating: "4.6",
+      "Edit photos with AI filters, stickers, frames, text, and professional enhancement tools.",
+    rating: "4.7",
     downloads: "1M+",
     image: "/apps/app_photo_pro.webp",
-    playStore: "#",
+    playStore:
+      "https://play.google.com/store/apps/details?id=com.vipastudio.photoeditorpro&hl=en_IN",
   },
   {
-    title: "Background Remover",
+    title: "AI Background Remover",
     category: "AI Tools",
     description:
-      "Remove photo backgrounds instantly using advanced AI technology.",
+      "Remove and replace photo backgrounds instantly with AI for clean, professional results.",
     rating: "4.5",
-    downloads: "500K+",
+    downloads: "100K+",
     image: "/apps/app_bg_remove.webp",
-    playStore: "#",
+    playStore:
+      "https://play.google.com/store/apps/details?id=com.vipastudio.bgremover&hl=en_IN",
   },
   {
-    title: "Police Photo Suit Editor",
+    title: "Police Photo Editor",
     category: "Photo Editor",
     description:
-      "Create realistic police uniform photos with AI-powered editing and professional photo effects.",
-    rating: "4.7",
-    downloads: "750K+",
+      "Create realistic police uniform photos with stylish frames, badges, and creative photo effects.",
+    rating: "4.5",
+    downloads: "100K+",
     image: "/apps/app_police_app_icon.webp",
-    playStore: "#",
+    playStore:
+      "https://play.google.com/store/apps/details?id=com.vipastudio.policephotoeditor&hl=en_IN",
   },
 ];
 

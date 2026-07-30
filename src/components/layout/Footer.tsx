@@ -48,9 +48,15 @@ export default function Footer() {
                 </Link>
               </li>
 
+                <li>
+                    <Link href="/apps" className="transition-colors duration-200 hover:text-blue-600">
+                    Apps
+                    </Link>
+                </li>
+
               <li>
-                <Link href="/apps" className="transition-colors duration-200 hover:text-blue-600">
-                  Apps
+                <Link href="/privacy" className="transition-colors duration-200 hover:text-blue-600">
+                  Privacy
                 </Link>
               </li>
 
